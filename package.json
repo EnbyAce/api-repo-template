@@ -1,0 +1,26 @@
+{
+  "type": "commonjs",
+  "scripts": {
+    "test": "jest tests --passWithNoTests",
+    "prepare": "husky",
+    "start": "node dist",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "compression": "^1.8.1",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "response-time": "^2.3.4"
+  },
+  "devDependencies": {
+    "@types/compression": "^1.8.1",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/response-time": "^2.3.9",
+    "husky": "^9.1.7",
+    "ts-jest": "^29.4.3",
+    "typescript": "^5.9.2"
+  }
+}
